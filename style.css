@@ -1,0 +1,89 @@
+body {
+    text-align: center;
+}
+
+#delta {
+    font-family: 'Dancing Script', cursive;
+}
+
+#welcome {
+    background: linear-gradient(#19cfbf 15%, #e7eb0c 85%);
+    height: 800px;
+    padding-top: 100px;
+}
+
+.line {
+    height: 15px;
+    width: 100px;
+    background-color: black;
+    margin: auto;
+}
+
+#pic {
+    width: 200px;
+
+}
+
+.menu {
+    list-style: none;
+    cursor: pointer;
+    
+    right: 30px;
+    position: fixed;
+}
+
+.link {
+    float: left;
+    font-size: 30px;
+    padding: 20px;
+    display: inline;
+}
+
+
+.link:hover {
+    text-decoration: underline;
+    font-size: 40px;
+    text-shadow: 2px 2px gainsboro;
+}
+
+#bio {
+    width: 50%;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+}
+
+.box {
+    text-decoration: underline;
+}
+
+.box:hover {
+    color: crimson;
+}
+
+#writing a {
+    color: dodgerblue;
+
+}
+
+.con a {
+    display: inline;
+    color: white;
+}
+
+#contact {
+    background-color:aqua;
+}
+.mynavbar {
+    top: 0;
+    position: sticky;
+    z-index: 9999999999999;
+
+}
